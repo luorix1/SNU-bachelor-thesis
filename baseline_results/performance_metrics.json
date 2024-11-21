@@ -1,0 +1,142 @@
+{
+    "gait/seq_16": {
+        "Mean Squared Error": 0.08259369444444442,
+        "Mean Absolute Error": 0.24181666666666662,
+        "R-squared": -0.79910048878266,
+        "MAE Excluding Severe Cases": 0.072875,
+        "Success Percentage (<50ms Error)": 5.0
+    },
+    "gait/seq_12": {
+        "Mean Squared Error": 0.04895492175273867,
+        "Mean Absolute Error": 0.1355821596244132,
+        "R-squared": -0.3177803004942472,
+        "MAE Excluding Severe Cases": 0.060706666666666645,
+        "Success Percentage (<50ms Error)": 33.80281690140845
+    },
+    "gait/seq_18": {
+        "Mean Squared Error": 0.025049691756272405,
+        "Mean Absolute Error": 0.12361290322580648,
+        "R-squared": -0.5153712183020411,
+        "MAE Excluding Severe Cases": 0.07692424242424246,
+        "Success Percentage (<50ms Error)": 25.806451612903224
+    },
+    "gait/seq_1": {
+        "Mean Squared Error": 0.03696739539007092,
+        "Mean Absolute Error": 0.10942730496453905,
+        "R-squared": -0.10340336293459917,
+        "MAE Excluding Severe Cases": 0.04588275862068967,
+        "Success Percentage (<50ms Error)": 47.340425531914896
+    },
+    "gait/seq_20": {
+        "Mean Squared Error": 0.01236285955555555,
+        "Mean Absolute Error": 0.08595466666666668,
+        "R-squared": 0.23217893155144487,
+        "MAE Excluding Severe Cases": 0.06190158730158731,
+        "Success Percentage (<50ms Error)": 38.4
+    },
+    "gait/seq_17": {
+        "Mean Squared Error": 0.01066749416820135,
+        "Mean Absolute Error": 0.07659300184162063,
+        "R-squared": 0.043813085893402826,
+        "MAE Excluding Severe Cases": 0.053703463203463205,
+        "Success Percentage (<50ms Error)": 48.06629834254144
+    },
+    "gait/seq_3": {
+        "Mean Squared Error": 0.021762010714285716,
+        "Mean Absolute Error": 0.07262976190476189,
+        "R-squared": 0.02371695621694281,
+        "MAE Excluding Severe Cases": 0.030501388888888877,
+        "Success Percentage (<50ms Error)": 69.28571428571428
+    },
+    "gait/seq_15": {
+        "Mean Squared Error": 0.006171395833333343,
+        "Mean Absolute Error": 0.07060416666666673,
+        "R-squared": -0.16861747243426772,
+        "MAE Excluding Severe Cases": 0.07060416666666673,
+        "Success Percentage (<50ms Error)": 25.0
+    },
+    "gait/seq_11": {
+        "Mean Squared Error": 0.007969953216374271,
+        "Mean Absolute Error": 0.06853801169590643,
+        "R-squared": 0.24903193083741304,
+        "MAE Excluding Severe Cases": 0.05402941176470588,
+        "Success Percentage (<50ms Error)": 49.122807017543856
+    },
+    "gait/seq_2": {
+        "Mean Squared Error": 0.01250151028806585,
+        "Mean Absolute Error": 0.05682716049382717,
+        "R-squared": 0.28308043152306694,
+        "MAE Excluding Severe Cases": 0.036930693069306936,
+        "Success Percentage (<50ms Error)": 68.51851851851852
+    },
+    "gait/seq_6": {
+        "Mean Squared Error": 0.0032574351851851874,
+        "Mean Absolute Error": 0.0481388888888889,
+        "R-squared": -1.1331089889343637,
+        "MAE Excluding Severe Cases": 0.0481388888888889,
+        "Success Percentage (<50ms Error)": 41.66666666666667
+    },
+    "gait/seq_7": {
+        "Mean Squared Error": 0.0035202549019607786,
+        "Mean Absolute Error": 0.04684313725490192,
+        "R-squared": -0.6904223866824837,
+        "MAE Excluding Severe Cases": 0.039729166666666635,
+        "Success Percentage (<50ms Error)": 58.82352941176471
+    },
+    "gait/seq_8": {
+        "Mean Squared Error": 0.003207353909465018,
+        "Mean Absolute Error": 0.04297530864197528,
+        "R-squared": 0.03570094105478394,
+        "MAE Excluding Severe Cases": 0.04297530864197528,
+        "Success Percentage (<50ms Error)": 62.96296296296296
+    },
+    "gait/seq_4": {
+        "Mean Squared Error": 0.002400570570570571,
+        "Mean Absolute Error": 0.036270270270270265,
+        "R-squared": -0.1412384894863039,
+        "MAE Excluding Severe Cases": 0.036270270270270265,
+        "Success Percentage (<50ms Error)": 72.97297297297297
+    },
+    "gait/seq_5": {
+        "Mean Squared Error": 0.002778694444444443,
+        "Mean Absolute Error": 0.034712962962962966,
+        "R-squared": -0.4454457990136478,
+        "MAE Excluding Severe Cases": 0.030866666666666653,
+        "Success Percentage (<50ms Error)": 75.0
+    },
+    "gait/seq_14": {
+        "Mean Squared Error": 0.0013938641975308657,
+        "Mean Absolute Error": 0.03196296296296297,
+        "R-squared": 0.005802997481551109,
+        "MAE Excluding Severe Cases": 0.03196296296296297,
+        "Success Percentage (<50ms Error)": 77.77777777777779
+    },
+    "gait/seq_13": {
+        "Mean Squared Error": 0.0010239599599599603,
+        "Mean Absolute Error": 0.023475475475475474,
+        "R-squared": 0.2527279476028522,
+        "MAE Excluding Severe Cases": 0.023079317269076305,
+        "Success Percentage (<50ms Error)": 89.7897897897898
+    },
+    "gait/seq_19": {
+        "Mean Squared Error": 0.0007209555555555586,
+        "Mean Absolute Error": 0.022866666666666723,
+        "R-squared": -0.23569785334491855,
+        "MAE Excluding Severe Cases": 0.022866666666666723,
+        "Success Percentage (<50ms Error)": 100.0
+    },
+    "gait/seq_10": {
+        "Mean Squared Error": 0.0008337378167641325,
+        "Mean Absolute Error": 0.021388888888888898,
+        "R-squared": -0.1781996651172284,
+        "MAE Excluding Severe Cases": 0.021388888888888898,
+        "Success Percentage (<50ms Error)": 92.10526315789474
+    },
+    "gait/seq_9": {
+        "Mean Squared Error": 0.00025746666666666586,
+        "Mean Absolute Error": 0.012599999999999981,
+        "R-squared": -0.2622014990413113,
+        "MAE Excluding Severe Cases": 0.012599999999999981,
+        "Success Percentage (<50ms Error)": 100.0
+    }
+}

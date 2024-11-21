@@ -1,0 +1,7 @@
+{
+    "Mean Squared Error": 0.014482034789354338,
+    "Mean Absolute Error": 0.06508610812746152,
+    "R-squared": 0.6764309859641544,
+    "MAE Excluding Severe Cases": 0.038429460164559504,
+    "Success Percentage (<50ms Error)": 63.96348012889366
+}

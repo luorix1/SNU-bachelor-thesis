@@ -1,0 +1,6 @@
+numpy==2.1.3
+h5py==3.12.1
+pandas==2.2.2
+matplotlib==3.9.2
+torch==2.2.2 # May differ depending on CUDA availability
+torchvision==0.17.2 # May differ depending on CUDA availability
