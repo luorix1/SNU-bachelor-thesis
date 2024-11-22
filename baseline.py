@@ -125,25 +125,7 @@ if __name__ == "__main__":
         )
         json.dump(performance_metrics, f, indent=4)
 
-    # Global scatter plot for all data
-    plt.figure(figsize=(10, 8))
-    plt.scatter(all_ground_truths, all_predictions, alpha=0.5, label="Predictions")
-    plt.plot(
-        [min(all_ground_truths), max(all_ground_truths)],
-        [min(all_ground_truths), max(all_ground_truths)],
-        "r--",
-        label="y = x (Ideal Fit)",
-    )
-    plt.xlabel("Actual Gait Cycle Duration (s)")
-    plt.ylabel("Predicted Gait Cycle Duration (s)")
-    plt.title("Predicted vs Actual Gait Cycle Durations (All Data)")
-    plt.legend()
-    plt.savefig(os.path.join(args.output_dir, "global_predicted_vs_actual_duration.png"))
-    plt.close()
-
-    print(f"Performance metrics saved to performance_metrics.json")
-
-    # Also calculate global metrics
+    # Calculate global metrics
     all_ground_truths = np.array(all_ground_truths)
     all_predictions = np.array(all_predictions)
 
@@ -172,3 +154,21 @@ if __name__ == "__main__":
 
     with open(os.path.join(args.output_dir, "global_performance_metrics.json"), "w") as f:
         json.dump(global_metrics, f, indent=4)
+
+    # Global scatter plot for all data
+    plt.figure(figsize=(10, 8))
+    plt.scatter(all_ground_truths, all_predictions, alpha=0.5, label="Predictions")
+    plt.plot(
+        [min(all_ground_truths), max(all_ground_truths)],
+        [min(all_ground_truths), max(all_ground_truths)],
+        "r--",
+        label="y = x (Ideal Fit)",
+    )
+    plt.xlabel("Actual Gait Cycle Duration (s)")
+    plt.ylabel("Predicted Gait Cycle Duration (s)")
+    plt.title(f"Predicted vs Actual Gait Cycle Durations\nR² = {r2:.4f}")
+    plt.legend()
+    plt.savefig(os.path.join(args.output_dir, "global_predicted_vs_actual_duration.png"))
+    plt.close()
+
+    print(f"Performance metrics saved to performance_metrics.json")

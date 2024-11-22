@@ -170,7 +170,7 @@ def test_model_and_plot(args, model, test_loader, experiment_path):
     plt.plot([0, max(labels.max(), predictions.max())], [0, max(labels.max(), predictions.max())], color="red", linestyle="--")
     plt.xlabel("Actual Stride Time")
     plt.ylabel("Predicted Stride Time")
-    plt.title("Actual vs Predicted Stride Time")
+    plt.title("Actual vs Predicted Stride Time\nR² = {:.4f}".format(r2_score(labels, predictions)))
     plt.savefig(os.path.join(experiment_path, "stride_time_scatter.png"))
     plt.close()
 
