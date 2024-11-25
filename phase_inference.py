@@ -122,6 +122,17 @@ def evaluate_regressor(args):
     logging.info(f"Mean Absolute Error: {mae:.4f}")
     logging.info(f"R-squared: {r2:.4f}")
 
+    # Set font sizes globally for all plots
+    plt.rcParams.update({
+        "font.size": 14,  # Default font size
+        "axes.titlesize": 18,  # Title font size
+        "axes.labelsize": 16,  # Axis labels font size
+        "xtick.labelsize": 14,  # X-tick labels font size
+        "ytick.labelsize": 14,  # Y-tick labels font size
+        "legend.fontsize": 14,  # Legend font size
+        "figure.titlesize": 20,  # Figure title font size
+    })
+
     # Plot a histogram of the errors
     errors = np.array(actual_stride_times) - np.array(predicted_stride_times)
     plt.figure(figsize=(10, 5))

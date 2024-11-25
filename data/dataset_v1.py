@@ -109,7 +109,7 @@ class GaitDatasetV1(Dataset):
         print(f"Loaded {len(self.full_sequences)} full sequences")
 
     def __len__(self):
-        return len(self.data)
+        return len(self.sequences)
 
     def __getitem__(self, idx):
         if self.label == "time":

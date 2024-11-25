@@ -87,6 +87,17 @@ if __name__ == "__main__":
                 "Success Percentage (<50ms Error)": success_percentage,
             }
 
+            # Set font sizes globally for all plots
+            plt.rcParams.update({
+                "font.size": 14,  # Default font size
+                "axes.titlesize": 18,  # Title font size
+                "axes.labelsize": 16,  # Axis labels font size
+                "xtick.labelsize": 14,  # X-tick labels font size
+                "ytick.labelsize": 14,  # Y-tick labels font size
+                "legend.fontsize": 14,  # Legend font size
+                "figure.titlesize": 20,  # Figure title font size
+            })
+
             # Plot predicted vs actual gait cycle durations
             plt.figure(figsize=(10, 5))
             plt.scatter(ground_truths, predictions, alpha=0.5, label="Predictions")

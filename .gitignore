@@ -1,5 +1,6 @@
 # Ignore experiment folders
 experiments_*/
+gait*/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
