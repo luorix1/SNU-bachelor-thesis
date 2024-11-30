@@ -221,6 +221,14 @@ def main():
         )
         ax[1].set_title("Mean Absolute Error")
 
+        # Print the relative improvement in R^2 score and MAE
+        mae_reduction = (baseline_mae - indirect_mae) / baseline_mae * 100
+        r2_improvement = (indirect_r2 - baseline_r2) / baseline_r2 * 100
+
+        print(data_dir)
+        print(f"MAE Reduction: {mae_reduction:.2f}%")
+        print(f"R^2 Improvement: {r2_improvement:.2f}%")
+
         # Save the plot
         plt.savefig(os.path.join(data_dir, "validation_results.png"))
 
